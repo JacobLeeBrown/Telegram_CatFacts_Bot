@@ -1,3 +1,6 @@
+my_env.py
+scraps.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
