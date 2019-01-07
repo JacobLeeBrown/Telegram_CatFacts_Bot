@@ -1,0 +1,35 @@
+catfacts_topics
+Even Families       : 21, 161
+Litter Size         : 56, 191 
+Body Temp.          : 47, 202, 240 
+Bones               : 13, 25, 227, 260
+Roaring             : 71, 228
+Teeth               : 236
+Egypt Burials       : 39, 72, 239, 291
+Domestic Cat Speed  : 243
+Life Expectancy     : 63, 247, 252
+Average BPM         : 248 
+Diet                : 5, 258
+Taurine (Blindness) : 32
+Purring No Bueno    : 91, 265
+Finding home        : 266
+Offspring 7 Years   : 269, 277
+Not in Bible        : 29, 281
+Origin of Tabby     : 66, 283
+Maine Coon          : 284
+#1 Pet, America     : 30, 61, 285
+Trembling in fear   : 43, 81, 288
+Milk No Bueno       : 64, 294
+Spending $ on food  : 299
+Field of view       : 300
+Paw preference      : 303
+How many sounds     : 310
+Spine               : 18
+Ear                 : 24
+Breaths per minute  : 28
+Rubbing with Scent  : 40
+Brain and Emotions  : 44
+Name for Cat Lover  : 79
+# of Breeds         : 82
+Speed               : 89
+
