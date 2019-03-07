@@ -7,6 +7,6 @@ class CatFacts_Bot(object):
         self.size = len(facts)
         self.randrange = randrange
 
-    def fact_me(self, bot, update):
+    def fact_me(self, update, context):
         text = self.facts[self.randrange(self.size)]
-        bot.send_message(chat_id=update.message.chat_id, text=text)
+        context.bot.send_message(chat_id=update.message.chat_id, text=text)

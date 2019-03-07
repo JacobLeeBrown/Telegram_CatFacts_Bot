@@ -15,18 +15,10 @@ logger = lg.getLogger(__name__)
 def error(bot, update, error):
     logger.warning('Update "%s" caused error "%s"', update, error)
 
-# # User Whitelist Filter # Not needed for this bot, everyone can enjoy!
-# class WhitelistFilter(BaseFilter):
-#     def __init__(self, whitelist):
-#         self.whitelist = whitelist
-
-#     def filter(self, message):
-#         return message.from_user.id in self.whitelist
-
 
 def main():
     # Initialize bot (telegram)
-    updater = Updater(token=env.catfacts_token)
+    updater = Updater(token=env.catfacts_token, use_context=True)
     dp = updater.dispatcher
     # Initialize CatFacts wrapper (requires facts list)
     facts = []
@@ -34,8 +26,6 @@ def main():
     for line in f:
         facts.append(line[:-1])
     my_bot = CatFacts_Bot(facts)
-    # Initialize whitelist filter
-    #my_filter = WhitelistFilter(env.user_whitelist)
 
     # Register commands with the Telegram Bot
     fact_me_handler = CommandHandler('fact_me', my_bot.fact_me)
